@@ -1,0 +1,19 @@
+{
+  "name": "practicing_typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "ks": "tsc kitchen.ts --watch",
+    "resume": "tsc resume.ts --watch",
+    "dicey": "tsc dicey.ts --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/jquery": "^3.5.5",
+    "jquery": "^3.6.0",
+    "typescript": "^4.2.4"
+  }
+}
